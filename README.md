@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Zendo – A Minimal Multi-Step Form in Next.js
 
-## Getting Started
+Zendo is a clean, state-managed, multi-step form built with **Next.js 14 App Router**, **TypeScript**, and **Zustand**.  
+It was crafted with simplicity, clarity, and user experience in mind – perfect for learning or extending in real-world projects.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔄 Multi-step form with smooth transitions
+- 📦 Global state management using **Zustand**
+- 🎯 Real-time data persistence across steps
+- 🎨 Fully responsive and minimal UI
+- ✅ Final submission preview
+- 💾 No backend required (yet easy to connect one)
+
+---
+
+## 📸 Screenshots
+
+### Step 1: User Info
+
+![Step One](public/step-1.png)
+
+### Step 2: Your Goal
+
+![Step Two](public/step-2.png)
+
+### Step 3: Preferences & Notes
+
+![Step Three](public/step-3.png)
+
+### Step 4: Final Summary
+
+![Step Three](public/step-4.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📂 Folder Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+📁 components/
+├── StepOne.tsx
+├── StepTwo.tsx
+├── StepThree.tsx
+└── FormNavigation.tsx
+📁 store/
+└── formstore.ts
+📄 app/page.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Clone the repository
+git clone https://github.com/AgrawalSujal/Zeno-MultiStep-Wizard.git
 
-## Learn More
+# Navigate into the project
+cd Zendo---A-Minimal-NextJS-Todo-App
 
-To learn more about Next.js, take a look at the following resources:
+# Install dependencies
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Run the development server
+npm run dev
+```
