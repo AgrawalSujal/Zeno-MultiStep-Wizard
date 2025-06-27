@@ -20,19 +20,19 @@ It was crafted with simplicity, clarity, and user experience in mind – perfect
 
 ### Step 1: User Info
 
-![Step One](public/step-1.png)
+![Step One](./step-1.png)
 
 ### Step 2: Your Goal
 
-![Step Two](public/step-2.png)
+![Step Two](./step-2.png)
 
 ### Step 3: Preferences & Notes
 
-![Step Three](public/step-3.png)
+![Step Three](./step-3.png)
 
 ### Step 4: Final Summary
 
-![Step Three](public/step-4.png)
+![Step Three](./step-4.png)
 
 ---
 
